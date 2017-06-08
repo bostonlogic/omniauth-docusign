@@ -6,7 +6,7 @@ module Omniauth
       option :name, 'docusign'
 
       option :client_options, {
-        :site          => 'https://account-d.docusign.com',
+        :site          => 'https://account.docusign.com',
         :authorize_url => '/oauth/auth',
         :auth_scheme   => :basic_auth
       }
